@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/BgImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:background="#000" />
+
+    <TextView
+        android:id="@+id/DName"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BgImg"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/DAddress"
+        style="@style/Base.TextAppearance.AppCompat.Display2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DName"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/PhoneNumber"
+        style="@style/Base.TextAppearance.AppCompat.Display3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DAddress"
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name" />
+
+
+</RelativeLayout>
